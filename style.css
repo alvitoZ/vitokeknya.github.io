@@ -146,19 +146,20 @@ form {
 }
 
 .container2 {
-  width: 600px;
+  width: 100%;
   margin: 10px auto;
   border-radius: 10px;
   overflow: auto;
 }
 
 .thumb {
-  width: 200px;
-  float: left;
-  box-sizing: border-box;
+  width: 80%;
 }
 
 .kapten {
+  margin: auto;
+  display: block;
+
   height: 250px;
   width: 300px;
 }
