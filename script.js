@@ -108,7 +108,17 @@ themes.addEventListener("click", function (e) {
 });
 
 function huruf() {
-  const huruf = [...title.textContent].map((e) => `<span>${e}</span>`).join("");
+  let array = [
+    "MESIN PENCARi",
+    "GOOGLE",
+    "MOZILLA",
+    "BING",
+    "YAHOO",
+    "INTERNET EXPLORER",
+    "ntah apa ini",
+  ];
+  let random = Math.round(Math.random() * 6);
+  const huruf = [...array[random]].map((e) => `<span>${e}</span>`).join("");
   title.innerHTML = huruf;
 }
 
