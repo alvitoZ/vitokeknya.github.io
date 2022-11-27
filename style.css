@@ -1,0 +1,164 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.coba {
+  background-color: white;
+  margin-right: -30px;
+  height: 30px;
+  border-width: 0;
+}
+.coba:hover {
+  transform: scale(110%);
+  background-color: black;
+}
+
+.imgSearch {
+  height: 17px;
+  margin-bottom: -px;
+  margin-left: -3px;
+}
+
+.inputText {
+  height: 2em;
+  width: 20em;
+}
+
+.title {
+  font-size: 50px;
+  padding-bottom: 40px;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  min-height: 600px;
+}
+
+.container > ul {
+  margin-top: -2px;
+  padding-right: 40px;
+}
+.container > ul > li {
+  list-style-type: none;
+  border: 1px solid black;
+  width: 268px;
+  display: none;
+}
+
+.container > ul > li > a {
+  text-decoration: none;
+  color: red;
+}
+
+#navigation {
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 10px;
+  align-items: center;
+  position: sticky;
+  top: 0;
+  border-bottom: 1px solid black;
+}
+
+#navigation > button {
+  padding: 10px;
+  background-color: black;
+  color: white;
+  border-radius: 10%;
+  border-width: 0;
+}
+
+#navigation > button:hover {
+  transition: all 1s;
+  transform: scale(110%);
+}
+
+.alert {
+  height: 30px;
+  padding: 20px;
+  background-color: rgb(0, 238, 255);
+  color: black;
+  display: none;
+}
+
+.closebtn {
+  margin-left: 15px;
+  color: black;
+  float: right;
+  font-size: 30px;
+  line-height: 20px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.closebtn:hover {
+  background-color: red;
+}
+
+.alert > ul {
+  display: flex;
+  justify-content: space-around;
+}
+.alert > ul > li {
+  margin-top: -15px;
+  list-style-type: none;
+}
+
+.alert > ul > li:nth-of-type(1):hover {
+  background-color: black;
+  color: white !important;
+}
+.alert > ul > li:nth-of-type(2):hover {
+  background-color: rgb(255, 255, 255);
+  color: black !important;
+}
+.alert > ul > li:nth-of-type(3):hover {
+  background-color: purple;
+}
+
+#navigation > figure > img {
+  width: 40px;
+}
+
+.title > span:hover {
+  transform: scale(1.2);
+  color: red;
+  letter-spacing: 20px;
+  display: inline-block;
+  transition: 0.2s;
+}
+
+.navKiri {
+  color: red;
+  border: 2px solid black;
+  border-radius: 5px;
+}
+
+.container2 {
+  width: 600px;
+  margin: 10px auto;
+  border-radius: 10px;
+  overflow: auto;
+}
+
+.thumb {
+  width: 200px;
+  float: left;
+  box-sizing: border-box;
+}
+
+.kapten {
+  height: 250px;
+  width: 300px;
+}

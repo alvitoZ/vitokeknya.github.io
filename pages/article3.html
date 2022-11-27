@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <header>
+      <nav id="navigation">
+        <h3 class="navKiri">VITO</h3>
+        <button onclick="window.open('../index.html')">BACK</button>
+        <button class="tombolGantiTema">THEME</button>
+      </nav>
+    </header>
+
+    <div class="alert">
+      <span class="closebtn" onclick="this.parentElement.style.display='none';"
+        >x</span
+      >
+      <ul class="themes">
+        <li>DARK MODE</li>
+        <li>LIGHT MODE</li>
+        <li>NIGTHCORD</li>
+      </ul>
+    </div>
+    <section>
+      <div class="container2">
+        <img src="../asset/img/angular.png" class="kapten" />
+        <h1 class="title">Apa Itu AngularJS?</h1>
+        <p>
+          AngularJS adalah framework software open-source yang digunakan untuk
+          membuat aplikasi single-page berbasis website. Framework ini juga
+          cukup populer bagi para developer untuk membuat menu animasi di laman
+          web HTML. Sejarah Angular JS sendiri dulunya adalah gagasan dari
+          seorang engineer Google, Misko Hevery dan Adam Abrons. Google merilis
+          versi pertamanya pada tahun 2012. Sejak saat itu, AngularJS terus
+          berkembang. Sebenarnya, sebelum era framework ini, ada banyak cara
+          untuk membuat laman web dinamis. Namun, metode tersebut tidak semudah
+          dan senyaman framework Angular JS. AngularJS menggunakan arsitektur
+          Model-View-Controller (MVC) yang digunakan dalam pengembangan aplikasi
+          berbasis web.
+        </p>
+        <div class="thumbnail">
+          <h2>Jenis arsitektur ini terdiri dari:</h2>
+          <div class="thumb">
+            <ul>
+              <li>
+                Model – struktur data yang mengelola informasi dan menerima
+                input dari controller.
+              </li>
+              <li>View – representasi informasi.</li>
+              <li>
+                Controller – merespons input dan berinteraksi dengan model.
+              </li>
+            </ul>
+          </div>
+          <div class="thumb">
+            <h3>Kelebihan AngularJS</h3>
+            <ul>
+              <li>
+                Penyatuan data dua arah (two-way data binding) – Karena
+                arsitektur Angular JS menyatukan JavaScript dan HTML, kode untuk
+                kedua bahasa ini sudah saling tersinkron. Dengan begitu,
+                developer bisa menghemat waktu untuk menulis kode.
+              </li>
+              <li>
+                Directive – Dengan directive, framework ini menyempurnakan
+                fungsionalitas file HTML. Nah, untuk mengaktifkan directive,
+                developer perlu menambahkan prefiks ng- ke atribut HTML.
+              </li>
+              <li>
+                Struktur kode – Menggunakan template framework ini, Anda bisa
+                membuat aplikasi dengan struktur kode yang rapi. Selain
+                menghemat waktu, stuktur kode juga memudahkan Anda memodifikasi
+                atau memperbaiki aplikasi.
+              </li>
+            </ul>
+          </div>
+          <div class="thumb">
+            <ul>
+              <li>
+                Pengujian – Framework ini mendukung pengujian unit dan
+                integrasi.
+              </li>
+              <li>
+                Terus berkembang – AngularJS semakin berkembang, baik dari segi
+                fungsionalitas maupun penggunanya. Framework ini juga
+                menyediakan banyak artikel dan tutorial yang selalu update.
+              </li>
+              <li>
+                Kompatibel dengan perangkat mobile dan desktop – AngularJS bisa
+                berjalan di hampir semua web browser, di perangkat mobile dan
+                desktop.
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+    <script src="../main.js"></script>
+  </body>
+</html>

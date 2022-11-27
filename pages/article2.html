@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <header>
+      <nav id="navigation">
+        <h3 class="navKiri">VITO</h3>
+        <button onclick="window.open('../index.html')">BACK</button>
+        <button class="tombolGantiTema">THEME</button>
+      </nav>
+    </header>
+
+    <div class="alert">
+      <span class="closebtn" onclick="this.parentElement.style.display='none';"
+        >x</span
+      >
+      <ul class="themes">
+        <li>DARK MODE</li>
+        <li>LIGHT MODE</li>
+        <li>NIGTHCORD</li>
+      </ul>
+    </div>
+
+    <ssection>
+      <div class="container2">
+        <img src="../asset/img/React.png" class="kapten" />
+        <h1 class="title">Apa itu React JS?</h1>
+        <p>
+          React JS adalah library JavaScript yang biasa digunakan saat membangun
+          UI suatu website atau aplikasi web. Jadi, React JS bisa dianggap
+          seperti perpustakaan yang berisi berbagai kode JavaScript yang sudah
+          tertulis (pre-written). Anda tinggal mengambil kode yang ingin Anda
+          gunakan. Sehingga, ini membuat proses coding menjadi lebih efisien
+          dengan framework JavaScript tersebut.
+        </p>
+        <div class="thumbnail">
+          <h2>Apa Kelebihan React JS?</h2>
+          <div class="thumb">
+            <ul>
+              <li>
+                JSX untuk memodifikasi Document Object Model (DOM) dengan kode
+                bergaya HTML. Untuk mengetahui fungsi JSX dengan lebih jelas,
+                Anda perlu tahu tentang DOM terlebih dahulu.
+              </li>
+              <li>
+                DOM adalah application programming interface (API) yang
+                berfungsi untuk mengatur struktur halaman web. Nah, untuk
+                menambah konten dinamis ke dalam halaman web, developer mesti
+                memodifikasi DOM. Dengan kata lain, JSX akan mempermudah Anda
+                untuk menambah konten dinamis. Karena extension ini dapat
+                membantu Anda untuk memasukkan syntax bergaya HTML ke dalam DOM.
+                Akan tetapi, JSX bukanlah HTML. Mungkin bahasa sederhananya
+                seperti ini: JSX terlihat seperti HTML, tapi memiliki fungsi
+                seperti JavaScript. Selain itu, Anda juga bisa menggunakan JSX
+                di berbagai browser. Karena JSX cocok dengan semua platform
+                browser modern – seperti Chrome atau Firefox.
+              </li>
+            </ul>
+          </div>
+          <div class="thumb">
+            <ul>
+              <li>
+                Virtual DOM Ketika developer mengupdate DOM dengan menggunakan
+                JSX, React JS akan membuat Virtual DOM, yaitu salinan dari DOM
+                asli yang ingin diupdate. Nah, Virtual DOM berguna untuk melihat
+                bagian dari DOM asli yang berubah. Contohnya, ketika pengguna
+                website mengklik tombol like atau comment, tentu yang perlu
+                berubah hanya bagian like dan comment saja, bukan? Ketika
+                menemukan bagian yang perlu diubah, React JS akan mengubah
+                bagian itu saja. Jadi, pengguna tidak perlu reload satu halaman
+                untuk melihat perubahannya. Hal ini dapat berpengaruh terhadap
+                performa website. Karena setiap perubahan hanya dilakukan pada
+                bagian yang diperlukan saja. Tanpa Virtual DOM, website Anda
+                akan menggunakan HTML untuk update DOM. Sehingga, seluruh DOMnya
+                mesti direload untuk menampilkan perubahan di satu bagian –
+                seperti mengklik tombol like atau menambahkan komentar.
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </ssection>
+
+    <script src="../main.js"></script>
+  </body>
+</html>
